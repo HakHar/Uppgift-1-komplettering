@@ -1,0 +1,72 @@
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;}
+  
+    li {
+        position: relative;
+        padding: 4px 15px;
+        margin: 0 5px;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;}
+        a{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            color: blueviolet;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-decoration: none;
+            padding: 10px 5px;
+            z-index: 1;       
+}
+.menu ul li:hover
+{
+    color: rgb(246, 17, 181);
+    transform: scale(1.1);
+    z-index: 100;
+    background: #25bcff;
+    box-shadow: 0 5px 25px rgb(4, 96, 4);
+}
+
+h1{
+    color:rgb(4, 96, 4);
+    font-size: 50pt;
+    background-color: yellow;
+}
+h2{
+    color: blue;
+    font-size: 25pt;
+}
+h3{
+    color: brown;
+    font-size: 20pt;
+}
+h5{
+    color: rgb(26, 16, 89);
+    font-size: 30pt;
+}
+
+
+img{max-width: 550px;
+    max-height: 200px;}
+
+    .fråga{
+        background-color: rgb(172, 226, 169);
+        font-size: 26pt;}
+      
+ #id-block{background: rgb(145, 206, 191);
+            font-size: 26pt;}
+
+ html {
+                background-image: url("https://cmsmagazine.ru/img_out/articles_elements/uploadzpkqvilg2f.jpg");
+                background-attachment: fixed;
+                background-position: bottom right;
+                background-repeat: no-repeat;
+                background-color: rgb(215, 239, 220);
+                overflow-y: scroll;
+            }
